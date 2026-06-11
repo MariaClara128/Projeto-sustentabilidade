@@ -1,9 +1,6 @@
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Poppins',sans-serif;
-scroll-behavior:smooth;
+font-family: 'Outfit',
+ sans-serif;
 }
 
 :root{
@@ -63,8 +60,6 @@ display:block;
 section{
 padding:100px 8%;
 }
-
-/* HEADER */
 
 .header{
 
@@ -146,6 +141,7 @@ padding-top:180px;
 
 flex:1;
 
+
 }
 
 .tag{
@@ -179,6 +175,7 @@ font-weight:800;
 margin-bottom:25px;
 
 max-width:700px;
+
 
 }
 
@@ -257,9 +254,6 @@ box-shadow:
 0 0 40px rgba(34,211,238,.20);
 
 }
-/* ========================= */
-/* ESTATÍSTICAS */
-/* ========================= */
 
 .numeros{
 
@@ -326,13 +320,12 @@ line-height:1.7;
 
 }
 
-/* ========================= */
-/* TITULOS */
-/* ========================= */
+/*titulos*/
 
 .section-title{
 
 text-align:center;
+
 
 margin-bottom:80px;
 
@@ -364,9 +357,7 @@ line-height:1.2;
 
 }
 
-/* ========================= */
-/* IMPACTOS */
-/* ========================= */
+/*impactos*/
 
 .impacto{
 
@@ -426,9 +417,7 @@ color:#cbd5e1;
 line-height:1.8;
 
 }
-/* ========================= */
-/* CARDS */
-/* ========================= */
+/*cards*/
 
 .cards{
 
@@ -516,9 +505,7 @@ color:#4ade80;
 font-weight:700;
 
 }
-/* ========================= */
-/* PAGINAS INTERNAS */
-/* ========================= */
+/*paginas internas*/
 
 .pagina{
 
@@ -613,7 +600,7 @@ box-shadow:
 
 }
 
-/* QUIZ */
+/* quiz */
 
 .quiz-container{
 
@@ -671,8 +658,6 @@ margin-right:10px;
 
 }
 
-/* RESULTADO */
-
 .resultado{
 
 margin-top:40px;
@@ -685,11 +670,11 @@ padding:30px;
 
 border-radius:25px;
 
-color:white;
+color:rgb(250, 248, 248);
 
 }
 
-/* FORMULARIOS */
+/* formu */
 
 
 form{
@@ -716,11 +701,11 @@ padding:18px;
 
 border-radius:15px;
 
-background:rgba(255,255,255,.05);
+background:rgba(139, 137, 137, 0.747);
 
-border:1px solid rgba(255,255,255,.08);
+border:1px solid rgba(255, 255, 255, 0.445);
 
-color:white;
+color:rgb(3, 3, 3);
 
 font-size:16px;
 
@@ -765,7 +750,7 @@ transform:translateY(-3px);
 
 }
 
-/* SOBRE */
+/* pagina sobre.html */
 
 .info-grid{
 
@@ -819,9 +804,6 @@ line-height:1.8;
 
 }
 
-/* FOOTER */
-
-
 footer{
 
 margin-top:120px;
@@ -842,7 +824,7 @@ margin-bottom:15px;
 
 background:linear-gradient(
 90deg,
-#4ade80,
+#4ade80, 
 #22d3ee
 );
 
@@ -865,9 +847,6 @@ line-height:1.8;
 
 }
 
-/* ========================= */
-/* RESPONSIVO */
-/* ========================= */
 
 @media(max-width:1000px){
 
@@ -987,10 +966,7 @@ line-height:1.8;
 padding-left:25px;
 
 }
-/* ========================= */
-/* SOBRE */
-/* ========================= */
-
+/*sobre html*/
 .data-section{
 
 background:rgba(255,255,255,.05);
