@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>EcoCalc | Diagnóstico Sustentável</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<div class="logo">
+
+EcoSmart
+
+</div>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="ecocalc.html">EcoCalc</a>
+<a href="quiz.html">Quiz</a>
+<a href="sobre.html">Sobre</a>
+</nav>
+
+</header>
+
+<section class="pagina">
+
+<div class="page-hero">
+
+<div class="page-content">
+
+<span>DIAGNÓSTICO AMBIENTAL</span>
+
+<h1>
+
+Descubra seu perfil sustentável.
+
+</h1>
+
+<p>
+
+O EcoCalc analisa hábitos relacionados ao consumo
+de água, energia, mobilidade e reciclagem,
+gerando um relatório personalizado com oportunidades
+de melhoria.
+
+</p>
+
+</div>
+
+<div class="page-image">
+
+<img src="https://i.pinimg.com/736x/ed/5a/81/ed5a81868482625d901b2cf5d86af93e.jpg" width="420px" height="420px">
+
+</div>
+
+</div>
+<div class="quiz-container">
+
+<h2>
+
+Consumo de Água
+
+</h2>
+
+<label>
+
+Quanto tempo dura seu banho?
+
+</label>
+
+<select id="banho">
+
+<option value="3">
+Menos de 5 minutos
+</option>
+
+<option value="2">
+Entre 5 e 10 minutos
+</option>
+
+<option value="1">
+Mais de 10 minutos
+</option>
+
+</select>
+
+<label>
+
+Você fecha a torneira ao escovar os dentes?
+
+</label>
+
+<select id="torneira">
+
+<option value="3">
+Sempre
+</option>
+
+<option value="2">
+Às vezes
+</option>
+
+<option value="1">
+Nunca
+</option>
+
+</select>
+
+<hr>
+
+<h2>
+
+Eficiência Energética
+
+</h2>
+
+<label>
+
+Você apaga as luzes ao sair dos ambientes?
+
+</label>
+
+<select id="luzes">
+
+<option value="3">
+Sempre
+</option>
+
+<option value="2">
+Às vezes
+</option>
+
+<option value="1">
+Nunca
+</option>
+
+</select>
+
+<label>
+
+Você utiliza lâmpadas LED?
+
+</label>
+
+<select id="led">
+
+<option value="3">
+Sim
+</option>
+
+<option value="1">
+Não
+</option>
+
+</select>
+
+<hr>
+
+<h2>
+
+Mobilidade
+
+</h2>
+
+<label>
+
+Qual transporte você mais utiliza?
+
+</label>
+
+<select id="transporte">
+
+<option value="3">
+Bicicleta
+</option>
+
+<option value="2">
+Transporte Público
+</option>
+
+<option value="1">
+Carro
+</option>
+
+</select>
+
+<hr>
+
+<h2>
+
+Reciclagem
+
+</h2>
+
+<label>
+
+Você separa resíduos recicláveis?
+
+</label>
+
+<select id="reciclagem">
+
+<option value="3">
+Sempre
+</option>
+
+<option value="2">
+Às vezes
+</option>
+
+<option value="1">
+Nunca
+</option>
+
+</select>
+
+<br><br>
+
+<button onclick="gerarRelatorio()">
+
+Gerar Relatório
+
+</button>
+
+</div>
+
+<div id="resultado" class="resultado">
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
