@@ -1,6 +1,4 @@
-// =====================
-// ECOCALC
-// =====================
+
 
 function gerarRelatorio() {
 
@@ -82,9 +80,7 @@ document.getElementById("resultado").innerHTML = html;
 
 }
 
-// =====================
-// QUIZ PREMIUM
-// =====================
+
 
 function corrigirQuizPremium() {
 
